@@ -1,0 +1,10 @@
+20220907	20:23:42	0e29fa7b-4ae8-43f6-b471-43225112f3e4	Error: Not allowed by CORS	GET	/	https://www.google.com
+20220907	20:27:40	afe4e9b2-db3a-44bb-be58-1d863331510b	Error: Not allowed by CORS	GET	/	https://www.nu.nl
+20220910	00:01:55	1bab02af-c3be-448d-9c13-a935051eaad6	MongoServerError: user is not allowed to do action [find] on [techNotesDB.users]	GET	/users	undefined
+20220910	00:03:59	9544cc72-bf62-4eac-b419-eef8818bcdeb	MongoServerError: user is not allowed to do action [find] on [techNotesDB.users]	GET	/users	undefined
+20220910	00:08:39	a4445ee5-b74b-455e-91be-c3dc3c665011	MongoServerError: user is not allowed to do action [find] on [techNotesDB.users]	GET	/users	undefined
+20220910	00:19:15	052b83df-0e93-48d7-9df7-39bc036ba2d7	MongoServerError: user is not allowed to do action [find] on [techNotesDB.users]	GET	/users	undefined
+20220910	00:25:47	a579ff7f-1b97-4208-8236-781b14264771	MongoServerError: user is not allowed to do action [find] on [techNotesDB.users]	GET	/users	undefined
+20220910	21:13:08	9179c237-f20e-4352-9b70-34daa60bb372	SyntaxError: Unexpected token } in JSON at position 59	POST	/users	undefined
+20220910	21:15:35	b67cf783-a5f5-4793-85cb-f7d4660c4199	ValidationError: User validation failed: username: Cast to string failed for value "[]" (type Array) at path "username"	POST	/users	undefined
+20220911	18:06:13	9466eb84-665a-498b-8510-ecc66b29dbd3	ValidationError: Note validation failed: user: Cast to ObjectId failed for value "Hank" (type string) at path "user" because of "BSONTypeError"	POST	/notes	undefined
