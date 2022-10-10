@@ -22,7 +22,7 @@ app.use(logger)
 // static middleware
 
 app.use(express.json())
-app.use(cors(corsOptions))
+app.use(cors())
 
 app.use(express.static('..public'))
 
