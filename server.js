@@ -18,11 +18,12 @@ connectDB()
 //user middleware
 
 app.use(logger)
+app.use(cors())
+
 
 // static middleware
 
 app.use(express.json())
-app.use(cors())
 
 app.use(express.static('..public'))
 
